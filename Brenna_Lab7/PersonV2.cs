@@ -193,7 +193,7 @@ namespace Brenna_Lab5
 
         //Method that will delete one Person record specified by the ID
         //It will return an Interger meant for feedback on how many records were deleted
-        public string DeleteOnePerson(int intPerson_ID)
+     /*   public string DeleteOnePerson(int intPerson_ID)
         {
             Int32 intRecords = 0;
             string strResult = "";
@@ -238,7 +238,7 @@ namespace Brenna_Lab5
         {
             Int32 intRecords = 0;
         }
-
+        */
 
         //-----Utility function so that one string controls all SQL Server Login info
         private string GetConnected()

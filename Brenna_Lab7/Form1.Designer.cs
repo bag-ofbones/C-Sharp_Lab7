@@ -64,8 +64,8 @@
             this.txtCustSince = new System.Windows.Forms.TextBox();
             this.lblPerson_ID_Text = new System.Windows.Forms.Label();
             this.lblPersonV2_ID = new System.Windows.Forms.Label();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnUpdate = new System.Windows.Forms.Button();
+        //    this.btnDelete = new System.Windows.Forms.Button();
+          //  this.btnUpdate = new System.Windows.Forms.Button();
             this.lblPerson_ID = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -134,7 +134,7 @@
             // 
             this.lblFeedback.AutoSize = true;
             this.lblFeedback.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFeedback.Location = new System.Drawing.Point(47, 380);
+            this.lblFeedback.Location = new System.Drawing.Point(47, 275);
             this.lblFeedback.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFeedback.Name = "lblFeedback";
             this.lblFeedback.Size = new System.Drawing.Size(55, 13);
@@ -144,7 +144,7 @@
             // btnSubmit
             // 
             this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.Location = new System.Drawing.Point(13, 329);
+            this.btnSubmit.Location = new System.Drawing.Point(33, 236);
             this.btnSubmit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 0);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(91, 30);
@@ -341,6 +341,7 @@
             this.label13.Size = new System.Drawing.Size(87, 13);
             this.label13.TabIndex = 27;
             this.label13.Text = "Total Purchases:";
+            this.label13.Visible = false;
             // 
             // txtTotalPurch
             // 
@@ -350,6 +351,7 @@
             this.txtTotalPurch.Name = "txtTotalPurch";
             this.txtTotalPurch.Size = new System.Drawing.Size(96, 20);
             this.txtTotalPurch.TabIndex = 26;
+            this.txtTotalPurch.Visible = false;
             // 
             // label14
             // 
@@ -361,6 +363,7 @@
             this.label14.Size = new System.Drawing.Size(93, 13);
             this.label14.TabIndex = 29;
             this.label14.Text = "Discount Member:";
+            this.label14.Visible = false;
             // 
             // txtDiscountMbr
             // 
@@ -370,6 +373,7 @@
             this.txtDiscountMbr.Name = "txtDiscountMbr";
             this.txtDiscountMbr.Size = new System.Drawing.Size(59, 20);
             this.txtDiscountMbr.TabIndex = 28;
+            this.txtDiscountMbr.Visible = false;
             // 
             // label15
             // 
@@ -383,6 +387,7 @@
             this.label15.Size = new System.Drawing.Size(27, 13);
             this.label15.TabIndex = 30;
             this.label15.Text = "Y/N";
+            this.label15.Visible = false;
             this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // label16
@@ -395,6 +400,7 @@
             this.label16.Size = new System.Drawing.Size(89, 13);
             this.label16.TabIndex = 32;
             this.label16.Text = "Rewards Earned:";
+            this.label16.Visible = false;
             // 
             // txtRewards
             // 
@@ -404,6 +410,7 @@
             this.txtRewards.Name = "txtRewards";
             this.txtRewards.Size = new System.Drawing.Size(96, 20);
             this.txtRewards.TabIndex = 31;
+            this.txtRewards.Visible = false;
             // 
             // label17
             // 
@@ -415,6 +422,7 @@
             this.label17.Size = new System.Drawing.Size(84, 13);
             this.label17.TabIndex = 34;
             this.label17.Text = "Customer Since:";
+            this.label17.Visible = false;
             // 
             // txtCustSince
             // 
@@ -424,6 +432,7 @@
             this.txtCustSince.Name = "txtCustSince";
             this.txtCustSince.Size = new System.Drawing.Size(96, 20);
             this.txtCustSince.TabIndex = 33;
+            this.txtCustSince.Visible = false;
             // 
             // lblPerson_ID_Text
             // 
@@ -442,7 +451,7 @@
             this.lblPersonV2_ID.Size = new System.Drawing.Size(0, 13);
             this.lblPersonV2_ID.TabIndex = 19;
             // 
-            // btnDelete
+         /*   // btnDelete
             // 
             this.btnDelete.Location = new System.Drawing.Point(274, 329);
             this.btnDelete.Name = "btnDelete";
@@ -450,6 +459,7 @@
             this.btnDelete.TabIndex = 36;
             this.btnDelete.Text = "Delete Person";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Visible = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
@@ -460,7 +470,8 @@
             this.btnUpdate.TabIndex = 37;
             this.btnUpdate.Text = "Update Person";
             this.btnUpdate.UseVisualStyleBackColor = true;
-            // 
+            this.btnUpdate.Visible = false;
+    */        // 
             // lblPerson_ID
             // 
             this.lblPerson_ID.AutoSize = true;
@@ -477,8 +488,8 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(399, 485);
             this.Controls.Add(this.lblPerson_ID);
-            this.Controls.Add(this.btnUpdate);
-            this.Controls.Add(this.btnDelete);
+          //  this.Controls.Add(this.btnUpdate);
+          //  this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.lblPersonV2_ID);
             this.Controls.Add(this.lblPerson_ID_Text);
             this.Controls.Add(this.label17);
@@ -564,8 +575,8 @@
             private System.Windows.Forms.TextBox txtCustSince;
             private System.Windows.Forms.Label lblPerson_ID_Text;
             private System.Windows.Forms.Label lblPersonV2_ID;
-        private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.Button btnUpdate;
+      //  private System.Windows.Forms.Button btnDelete;
+      //  private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Label lblPerson_ID;
     }
     }

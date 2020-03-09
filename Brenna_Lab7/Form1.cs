@@ -151,7 +151,7 @@ namespace Brenna_Lab5
 
         }
 
-        private void btnDelete_Click(object sender, EventArgs e)
+ /*       private void btnDelete_Click(object sender, EventArgs e)
         {
             //Get the ID from the label
             Int32 intPerson_ID = Convert.ToInt32(lblPerson_ID.Text);
@@ -179,7 +179,7 @@ namespace Brenna_Lab5
             temp.Cell = txtCell.Text;
             temp.Email = txtEmail.Text;
             temp.Fb = txtFb.Text;
-        }
+        } */
 
     }
 }

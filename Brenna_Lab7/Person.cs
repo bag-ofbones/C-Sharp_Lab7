@@ -35,7 +35,13 @@ namespace Brenna_Lab5
         public string MName
         {
             get { return mName; }
-            set { feedback += value; }
+            set
+            {
+                if (ValidationLibrary.IsItFilledIn(value))
+                { mName += value; }
+                else
+                { feedback += "\nINVALID: Enter a Middle Name"; }
+            }
         }
         public string LName
         {
